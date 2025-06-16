@@ -1,0 +1,110 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff8f0;
+}
+.receipe-card {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  transition: transform 0.3s;
+  box-shadow: 0px 10px 24px 0px #0000004d;
+}
+.receipe-card h1 {
+  color: #e53935;
+  text-align: center;
+}
+.receipe-card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.receipe-card img:hover {
+  transform: scale(1.02);
+}
+.receipe-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #666;
+}
+button {
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn-ingredients {
+  background-color: #ef5350;
+}
+.btn-ingredients:hover {
+  background-color: #c62828;
+}
+.btn-start {
+  background-color: #ffa51d;
+}
+.btn-start:hover {
+  background-color: #ffac39;
+}
+.btn-steps,
+.btn-Next {
+  background-color: #2aaa30;
+}
+.btn-steps:hover,
+.btn-Next:hover {
+  background-color: #62c268;
+}
+ul li,
+ol li {
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}
+ul li:hover,
+ol li:hover {
+  text-decoration: underline;
+  color: #d2691e;
+}
+.cooking-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+.progress-bar {
+  height: 10px;
+  border-radius: 8px;
+  background-color: #eee;
+  margin: 10px 0;
+  overflow: hidden;
+}
+#progress {
+  height: 100%;
+  width: 0%;
+  background-color: #ef5350;
+  transition: width 0.3s ease-in-out;
+}
+#timer {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .receipe-card {
+    padding: 15px;
+  }
+  .receipe-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}

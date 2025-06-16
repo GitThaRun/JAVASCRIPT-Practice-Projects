@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicken Biryani Recipe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="receipe-card">
+      <h1>🍗 Chicken Biryani</h1>
+
+      <img src="Biryani-Img.webp" alt="Biryani-Image" />
+
+      <div class="receipe-info">
+        <small>Preparation Time : 1hr</small>
+        <small>Serves : 4</small>
+      </div>
+
+      <button class="btn-ingredients" onclick="toggleSection('ingredients')">
+        Show Ingredients
+      </button>
+      <ul id="ingredients" class="hidden">
+        <li><strong>Rice:</strong></li>
+        <li>2 cups basmati rice</li>
+        <li>4 cups water</li>
+        <li>1 tsp salt</li>
+        <li>1 bay leaf</li>
+        <li>4 cloves</li>
+        <li>2 green cardamoms</li>
+        <li>1 cinnamon stick</li>
+
+        <li><strong>Chicken Marinade:</strong></li>
+        <li>500g chicken pieces</li>
+        <li>1 cup yogurt</li>
+        <li>1 tbsp ginger-garlic paste</li>
+        <li>1/2 tsp turmeric powder</li>
+        <li>1 tsp red chili powder</li>
+        <li>1 tsp garam masala</li>
+        <li>Salt to taste</li>
+
+        <li><strong>For Biryani Base:</strong></li>
+        <li>2 onions, sliced</li>
+        <li>2 tomatoes, chopped</li>
+        <li>2 tbsp oil or ghee</li>
+        <li>A few mint leaves</li>
+        <li>A handful of coriander leaves</li>
+        <li>(Optional) Pinch of saffron in 2 tbsp warm milk</li>
+      </ul>
+
+      <button class="btn-steps" onclick="toggleSection('steps')">
+        Show Steps
+      </button>
+      <ol id="steps" class="hidden">
+        <li>Wash and soak basmati rice for 30 minutes.</li>
+        <li>
+          Marinate chicken with yogurt, spices, and salt. Rest for 30–60 mins.
+        </li>
+        <li>Cook the rice 80% in water with whole spices, then drain.</li>
+        <li>
+          Fry sliced onions in oil/ghee till golden. Remove half for garnishing.
+        </li>
+        <li>
+          Add chopped tomatoes. Cook till soft, then add marinated chicken.
+        </li>
+        <li>Cook chicken till 70–80% done.</li>
+        <li>
+          Layer rice over chicken. Add fried onions, mint, coriander, and
+          saffron milk.
+        </li>
+        <li>Cover and cook on low flame (dum) for 15–20 minutes.</li>
+        <li>
+          Let it rest 5 minutes. Gently mix and serve hot with raita or salad.
+        </li>
+      </ol>
+      <div class="cooking-controls">
+        <button class="btn-start" onclick="startCooking()">
+          Start Cooking
+        </button>
+        <button class="btn-Next" onclick="NextStep()">Next Step</button>
+
+        <div class="progress-bar">
+          <div id="progress"></div>
+        </div>
+        <div id="timer">⏳ Timer: 0s</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
