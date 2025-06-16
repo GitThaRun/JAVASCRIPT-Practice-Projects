@@ -17,7 +17,6 @@ Welcome! This repository contains a curated list of simple, practical JavaScript
 
 | Project | Description |
 |--------|-------------|
-| ✅ Recipe Card | Toggle sections, highlight steps, animate progress bar, and use a cooking timer |
 | 🧮 Faulty Calculator | Performs arithmetic operations but intentionally gives incorrect results for some specific cases (great for understanding conditional logic). |
 | 🔢 Factorial Finder | Takes user input and calculates the factorial of a number using loops or recursion. |
 | 🏷️ Business Name Generator | Randomly generates unique business names using a mix of adjectives and nouns — fun with arrays and randomization. |
