@@ -20,7 +20,8 @@ Welcome! This repository contains a curated list of simple, practical JavaScript
 | 🧮 Faulty Calculator | Performs arithmetic operations but intentionally gives incorrect results for some specific cases (great for understanding conditional logic). |
 | 🔢 Factorial Finder | Takes user input and calculates the factorial of a number using loops or recursion. |
 | 🏷️ Business Name Generator | Randomly generates unique business names using a mix of adjectives and nouns — fun with arrays and randomization. |
-
+| 🤔 Number Guessing Game | A fun game where you guess the secret number with smart hints!|
+| 🌡️ Temperature Converter | Convert temperatures between Celsius and Fahrenhiet in a snap.|
 ---
 
 ## 📦 Tech Used
