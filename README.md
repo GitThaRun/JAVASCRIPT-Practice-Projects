@@ -22,6 +22,7 @@ Welcome! This repository contains a curated list of simple, practical JavaScript
 | 🏷️ Business Name Generator | Randomly generates unique business names using a mix of adjectives and nouns — fun with arrays and randomization. |
 | 🤔 Number Guessing Game | A fun game where you guess the secret number with smart hints!|
 | 🌡️ Temperature Converter | Convert temperatures between Celsius and Fahrenhiet in a snap.|
+| 🛡️ Random Password Generator | A simple and responsive Random Password Generator built using HTML, CSS, and JavaScript. This tool allows users to generate secure, customizable passwords with a single click — ideal for improving online safety and reducing password reuse.|
 ---
 
 ## 📦 Tech Used
